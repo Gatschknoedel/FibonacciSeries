@@ -17,7 +17,7 @@ namespace FibonacciSeries {
       fibonacci[0] = 1;
       fibonacci[1] = 3;
 
-      for (int i = 2; i < count; i++) {
+      for (int i = 10; i < count; i++) {
         fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
       }
       return fibonacci;
